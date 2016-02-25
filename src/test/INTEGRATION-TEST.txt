@@ -40,8 +40,8 @@ STEPS:
          This command will import Recurly certificate into keystore. 
          To import the certificate give "wso2carbon" as password. Press "Y" to complete certificate import process.
 
-         NOTE : CERT_FILE_NAME - Replace CERT_FILE_NAME with the file name that was extracted from Recurly with the extension. (e.g. recurly.crt)
-               CERT_NAME - Replace CERT_NAME with an arbitrary name for the certificate. (e.g. Recurly)
+         NOTE : CERT_FILE_NAME - Replace CERT_FILE_NAME with the file name that was extracted from Recurly with the extension. (e.g.                                      recurly.crt)
+                CERT_NAME      - Replace CERT_NAME with an arbitrary name for the certificate. (e.g. Recurly)
 
    iv) Navigate to "{RECURLY_Connector_Home}/src/test/resources/keystores/products/" using command prompt and execute the following command.
 
@@ -50,8 +50,8 @@ STEPS:
          This command will import recurly certificate in to keystore. Give "wso2carbon" as password.
          To import the certificate give "wso2carbon" as password. Press "Y" to complete certificate import process.
 
-         NOTE : CERT_FILE_NAME - Replace CERT_FILE_NAME with the file name that was extracted from Recurly with the extension. (e.g. recurly.crt)
-               CERT_NAME - Replace CERT_NAME with an arbitrary name for the certificate. (e.g. Recurly)
+         NOTE : CERT_FILE_NAME - Replace CERT_FILE_NAME with the file name that was extracted from Recurly with the extension. (e.g.                                      recurly.crt)
+               CERT_NAME       - Replace CERT_NAME with an arbitrary name for the certificate. (e.g. Recurly)
 
 5. Compress modified ESB as WSO2 ESB 4.9.0.zip and copy that zip file in to location "{RECURLY_Connector_Home}/repository/".
 
@@ -59,18 +59,18 @@ STEPS:
 
    i)   apiUrl               -  API URL to which the service calls are made. e.g. https://virasoft.recurly.com.
    ii)  apiKey               -  Use the API key obtained in Step 3 - iii.
-   iii) couponCode           -  A unique code for creating a coupon. This code may only contain the characters [a-z A-Z 0-9 @ - _ .]. Max of 50 characters.
-   iv)  couponCodeOpt        -  A unique code for creating a optional coupon. This code may only contain the characters [a-z A-Z 0-9 @ - _ .]. Max of 50 characters.
-   v)   accountCode          -  A unique code for creating a account. This code may only contain the characters [a-z 0-9 @ - _ .]. Max of 50 characters.
-   vi)  accountCodeOpt       -  A unique code for creating a optional account. This code may only contain the characters [a-z 0-9 @ - _ .]. Max of 50 characters.
-   vii) planCode             -  A unique code for creating a plan. This code may only contain the characters [a-z 0-9 @ - _ .]. Max of 50 characters.
-   viii)planCodeOptional     -  A unique code for creating a optional plan. This code may only contain the characters [a-z 0-9 @ - _ .]. Max of 50 characters.
+   iii) couponCode           -  A unique code for creating a coupon. This code may only contain the characters [a-z A-Z 0-9 @ - _ .]. Max                                 of 50 characters.
+   iv)  couponCodeOpt        -  A unique code for creating a optional coupon. This code may only contain the characters [a-z A-Z 0-9 @ -                                 _ .]. Max of 50 characters.
+   v)   accountCode          -  A unique code for creating a account. This code may only contain the characters [a-z 0-9 @ - _ .]. Max of                                 50 characters.
+   vi)  accountCodeOpt       -  A unique code for creating a optional account. This code may only contain the characters [a-z 0-9 @ - _                                  .]. Max of 50 characters.
+   vii) planCode             -  A unique code for creating a plan. This code may only contain the characters [a-z 0-9 @ - _ .]. Max of 50                                 characters.
+   viii)planCodeOptional     -  A unique code for creating a optional plan. This code may only contain the characters [a-z 0-9 @ - _ .].                                 Max of 50 characters.
    ix)  discountPercentage   -  The discount percentage for coupons. Integer value between 0 to 100.
    x)   nameString           -  Use a valid string value for the coupon name.
    xi)  description          -  Use a valid string value for the coupon description.
    xii) perPage              -  Integer value indicating the number of results per page for pagination.
 
-   Note: The property values of couponCode, couponCodeOpt, accountCode, accountCodeOpt, planCode, planCodeOptional should be changed to unique different values for each integration execution.
+   Note: The property values of couponCode, couponCodeOpt, accountCode, accountCodeOpt, planCode, planCodeOptional should be changed to           unique different values for each integration execution.
 
 8. Navigate to "{RECURLY_Connector_Home}/" and run the following command.
       $ mvn clean install
