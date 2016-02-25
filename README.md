@@ -1,5 +1,5 @@
 # Recurly ESB Connector
-The QuickBooks connector allows you to access the QuickBooks REST API through WSO2 ESB. QuickBooks is an accounting software application targeted at SMALL BUSINESSES. It allows you to work with accounts, track sales, expenses, and employee payment, send invoices, accept payments, and scan receipts.
+The Recurly connector allows you to access the Recurly REST API through the WSO2 ESB. Recurly offers enterprise-class subscription billing for thousands of companies worldwide.
 
 ###Build
 mvn clean install
