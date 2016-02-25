@@ -1,4 +1,4 @@
-# Recurly ESB Connector
+### Recurly ESB Connector
 The Recurly connector allows you to access the Recurly REST API through the WSO2 ESB. Recurly offers enterprise-class subscription billing for thousands of companies worldwide.
 
 ###Build
